@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.myCanvas{
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.restart-button{
+    padding: 12px 24px;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 12px;
+    background-color: #1D428A;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.restart-button:hover{
+    background-color: #C9082A;
+}
+
+.energy{
+    margin-top: 16px;
+}
